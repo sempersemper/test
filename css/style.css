@@ -174,16 +174,6 @@ body {
     color: #000000;
 }
 
-body {
-  min-height: 100vh;
-  /* mobile viewport bug fix */
-  min-height: -webkit-fill-available;
-}
-
-html {
-  height: -webkit-fill-available;
-}
-
 @media (max-width: 1200px) {
 
     html,
@@ -199,7 +189,6 @@ body.lock {
 /*Общие стили*/
 .wrapper {
     min-height: 100vh;
-    min-height: -webkit-fill-available;
     overflow: hidden;
 }
 
@@ -510,7 +499,6 @@ body.lock {
 
 .main-screen {
     min-height: 100vh;
-    min-height: -webkit-fill-available;
     background: url('../img/main-screen/main-screen_bg.jpg') 50%/cover no-repeat;
     display: -webkit-box;
     display: -webkit-flex;
