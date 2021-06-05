@@ -499,6 +499,7 @@ body.lock {
 
 .main-screen {
     min-height: 100vh;
+    height: 100%;
     background: url('../img/main-screen/main-screen_bg.jpg') 50%/cover no-repeat;
     display: -webkit-box;
     display: -webkit-flex;
